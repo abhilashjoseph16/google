@@ -1,0 +1,121 @@
+.google-header-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    // background-color: green;
+  
+    @media (max-width:$tablet){
+      height: 48px;
+    }
+    .google-header-left-box {
+      display: flex;
+      gap: 20px;
+      margin-left: 25px;
+      align-items: center;
+  
+      .google-header-about-box{
+        @media (max-width:$tablet){
+          display: none;
+        }
+        h4 {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: normal;
+          color: rgb(31, 31, 31);
+          font-family: Arial, sans-serif;
+        }
+      }
+  
+      .google-header-store-box {
+        @media (max-width:$tablet){
+          display: none;
+        }
+        h4 {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: normal;
+          color: rgb(31, 31, 31);
+          font-family: Arial, sans-serif;
+        }
+      }
+      .google-header-left-box-upto-tab{
+        @media (max-width:$tablet){
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-left: -12px;
+
+        .google-header-all-box{
+          h4{
+            font-size: 13px;
+            font-weight: 400;
+            line-height: normal;
+            color: rgb(0, 0, 0);
+            font-family: 'Roboto', sans-serif;
+          }
+        }
+        .google-header-images-box-upto-tab{
+          h4{
+            font-size: 13px;
+            font-weight: 400;
+            line-height: normal;
+            color: rgb(0, 0, 0);
+            font-family: 'Roboto', sans-serif;
+          }
+        }
+        }
+      }
+    }
+  
+    .google-header-right-box {
+      display: flex;
+      align-items: center;
+      margin-right: 33px;
+      gap: 16px;
+
+      .google-header-gmail-box {
+        @media (max-width:$tablet){
+          display: none;
+        }
+        h4{
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 24px;
+          color: rgb(31, 31, 31);
+          font-family: Arial, sans-serif;
+        }
+      }
+      .google-header-images-box{
+        @media (max-width:$tablet){
+          display: none;
+        }
+        h4{
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 24px;
+          color: rgb(31, 31, 31);
+          font-family: Arial, sans-serif;
+        }
+      } 
+
+      .google-header-searchlab-box{
+        @media (max-width:$tablet){
+          display: none;
+        }
+        svg{
+          margin-top: 4px;
+        }
+      } 
+
+      .google-header-googleapps-box img{
+        margin-top: 4px;
+      }
+
+      .google-header-userprofile-box img {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+  
