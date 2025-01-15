@@ -1,0 +1,94 @@
+.google-search-box-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    // background-color: rgb(39, 214, 214);
+
+    @media (max-width:$tablet){
+        height: 190px;
+    }
+    
+    .google-search-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 45px;
+        @media (max-width:$tablet){
+            margin-top: 25px;
+        }
+        @media (max-width:$mobile) {
+            margin-top: 60px;
+        }
+        img{
+            @media (max-width:$tablet){
+                height: 54px;
+                width: 160px;
+            }
+        }
+        .google-search-bar-box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #dfe1e5;
+            border-radius: 27px;
+            box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+            background: #fff;
+            margin-top: 28px;
+            height: 46px;
+            width: 582px;
+            @media (max-width:$tablet){
+                margin-top: 26px;
+                height: 37px;
+                width: 94%;
+            }
+            @media (max-width:$mobile){
+                margin-top: 28px;
+            }
+            .google-search-bar-icon{
+                svg{
+                    fill: rgb(154, 160, 166);
+                    height: 20px;
+                    width: 20px;
+                    margin-top: 5px;
+                    margin-left: 12px;
+                    @media (max-width:$tablet){
+                        margin-top: 5px;
+                        margin-left: 12px;
+                        height: 24px;
+                        width: 24px;
+                    }
+                }
+            }
+            .google-search-bar-mic-and-camera-box{
+                display: flex;
+                gap: 17px;
+                @media (max-width:$tablet){
+                    gap: 22px; 
+                }
+                .google-search-bar-mic-icon{
+                    svg{
+                        height: 24px;
+                        width: 24px;
+                        @media (max-width:$tablet){
+                            margin-top: 4px;
+                        }  
+                    }
+                }
+                .google-search-bar-camera-icon{
+                    svg{
+                        height: 24px;
+                        width: 24px;
+                        margin-right: 14px;
+                        @media (max-width:$tablet){
+                            margin-top: 4px;
+                            margin-right: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
