@@ -1,0 +1,20 @@
+.ai-course-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    @media (max-width:$tablet){
+        margin-top: 5px;
+    }
+    @media (max-width:$mobile){
+        margin-top: 10px;
+    }
+    a{
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: normal;
+        color: #1558d6;
+        text-decoration: underline;
+    }
+}
